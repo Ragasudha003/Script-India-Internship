@@ -1,0 +1,33 @@
+.dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 1 1 150px;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.violet { background: #4b0082; }
+.orange { background: #ffa500; }
+.blue { background: #1e90ff; }
+.red { background: #dc143c; }
+.purple { background: #9400d3; }

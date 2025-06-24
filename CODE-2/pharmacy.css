@@ -1,0 +1,61 @@
+.top-bar {
+  background-color: #033489;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.navbar {
+  background-color: #033489;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  color: white;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+.logo span {
+  color: red;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+.book-btn {
+  background-color: #2d57ff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.hero {
+  background-image: url('pharmacy-background.jpg'); /* Use local image */
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 36px;
+  max-width: 600px;
+}
